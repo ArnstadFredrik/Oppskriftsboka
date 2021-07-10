@@ -7,9 +7,6 @@ tags:
 ---
 
 ## Ingredienser
-::: {.grid .c2}
-
-::: {.table}
 
 ### Bunn 
 Hva 		| Mengde
@@ -18,10 +15,7 @@ Hvetemel	| 300 g
 Melis		| 100 g
 Smør		| 200 g
 Egg		| 1 stk.
-:::
 
-
-::: {.table}
 
 ### Epler
 Hva 		| Mengde
@@ -30,10 +24,6 @@ Epler		| 5 stk
 Sukker		| 2 ss
 Malt kanel	| 1 ss
 Smør til steking| 2 ss
-
-:::
-
-::: {.table}
 
 ### Fyll
 Hva 		| Mengde
@@ -45,17 +35,10 @@ Vaniljesukker	| 1 ts
 Sitronskall	| 1 ts
 Sitronsaft	| 2 ss
 
-:::
-
-::: {.table}
-
 ## Topping
 Hva 		| Mengde
 ---		|---
 Hakkede nøtter	| 3ss
-
-:::
-:::
 
 ## Fremgangsmåte
 
