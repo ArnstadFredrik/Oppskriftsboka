@@ -7,7 +7,7 @@
 
 * {
 	box-sizing: border-box;
-	margin-top: 0px;
+	margin: 0px;
 }
 
 * + * {
@@ -25,6 +25,7 @@ html {
 nav ul {
 	display: flex;
 	justify-content: center;
+	padding: 0;
 }
 
 nav li {
@@ -228,7 +229,7 @@ ul.task-list {
 	text-align: center;
 	background-color: var(--text-color);
 	position: relative;
-	min-height: 3.5em;
+	min-height: 4.5em;
 	font-size: 0.8em;
 	margin: 0px;
 	display: grid;
@@ -244,12 +245,10 @@ ul.task-list {
 	text-decoration: none;
 	text-transform: uppercase;
 	background-color: var(--text-color);
-	position: absolute;
-	bottom: 0.5em;
 	z-index: 10;
-	left: 0.5em;
 	padding: 0.5em 1em;
 	margin: 0em;
+	align-self: end;
 }
 
 .recipe__tags__list {
