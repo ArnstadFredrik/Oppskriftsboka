@@ -7,7 +7,6 @@ $recipe-height: 4.5em;
 	background-color: abstracts.$text-color;
 	position: relative;
 	min-height: $recipe-height;
-	font-size: 0.8em;
 	margin: 0px;
 	display: grid;
 
@@ -29,7 +28,7 @@ $recipe-height: 4.5em;
 	}
 
 	&__tags__list {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 
 	&__tags__item {

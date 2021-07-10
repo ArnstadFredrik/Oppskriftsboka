@@ -1,10 +1,6 @@
 @use '../abstracts';
 
 .tags {
-	&-list {
-		font-size: smaller;
-	}
-
 	&__title {
 		color: abstracts.$theme-color;
 		text-transform: capitalize;

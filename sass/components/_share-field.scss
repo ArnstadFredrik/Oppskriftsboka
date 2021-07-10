@@ -8,7 +8,7 @@
 .print,
 .share {
 	text-decoration: underline;
-	color: var(--theme-color);
+	color: abstracts.$theme-color;
 
 	&:hover {
 		color: abstracts.$text-color;

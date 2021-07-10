@@ -12,6 +12,7 @@
 body {
 	line-height: 1.5;
 	font-family: abstracts.$ff-body;
+	font-size: 1.2rem;
 	margin: 0 auto;
 	max-width: 40em;
 	padding-left: 50px;
@@ -48,14 +49,14 @@ h3,
 h4,
 h5,
 h6 {
-	margin-top: 1.4em;
+	margin-top: 1.4rem;
 	color: abstracts.$theme-color;
 	text-transform: capitalize;
 }
 
 h5,
 h6 {
-	font-size: 1em;
+	font-size: 1rem;
 	font-style: italic;
 }
 
@@ -89,4 +90,8 @@ hr {
 	border: none;
 	height: 1px;
 	margin: 1em 0;
+}
+
+::marker {
+	color: abstracts.$theme-color;
 }
