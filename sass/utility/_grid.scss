@@ -4,5 +4,9 @@
 }
 
 .c2 {
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
+
+	@media (min-width: 30em) {
+		grid-template-columns: 1fr 1fr;
+	}
 }
