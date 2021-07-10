@@ -50,6 +50,7 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter('toUpper', function(string) {
 		let output = string[0].toUpperCase()
+		return
 	})
 
 	return {
