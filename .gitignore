@@ -1,0 +1,8 @@
+# Ignore build public folder
+public
+
+# Mac os file
+.DS_Store
+
+# Node Folder
+node_modules
