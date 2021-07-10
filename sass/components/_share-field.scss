@@ -1,0 +1,20 @@
+@use '../abstracts';
+
+.share-field {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.print,
+.share {
+	text-decoration: underline;
+	color: var(--theme-color);
+
+	&:hover {
+		color: abstracts.$text-color;
+	}
+}
+
+.share {
+	display: none;
+}

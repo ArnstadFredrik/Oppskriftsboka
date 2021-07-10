@@ -15,10 +15,10 @@ eleventyComputed:
 {% set taglist = collections[ tag ] %}
 
 <div class="c2 grid">
-  {% for post in taglist | reverse %}
+  {% for post in taglist %}
     <a class="recipe" href="{{ post.url | url }}">
       <img src="{{ post.data.img }}" alt="">
-      <p>{{post.data.title}}</p>
+      <p class="grid center">{{post.data.title}}</p>
     </a>
   {% endfor %}
 </div>

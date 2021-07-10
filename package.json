@@ -3,13 +3,16 @@
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
-		"start": "eleventy --serve",
+		"watch:eleventy": "npx @11ty/eleventy --serve",
+		"watch:sass": "npx sass sass:src/assets/css --watch",
+		"start": "npm run watch:eleventy & npm run watch:sass",
 		"build": "eleventy"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"@11ty/eleventy": "^0.12.1"
+		"@11ty/eleventy": "^0.12.1",
+		"sass": "^1.35.2"
 	}
 }

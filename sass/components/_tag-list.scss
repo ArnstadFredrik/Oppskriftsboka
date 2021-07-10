@@ -1,0 +1,24 @@
+@use '../abstracts';
+
+.tags {
+	&-list {
+		font-size: smaller;
+	}
+
+	&__title {
+		color: abstracts.$theme-color;
+		text-transform: capitalize;
+	}
+
+	&__item {
+		break-inside: avoid;
+		text-transform: capitalize;
+	}
+
+	&__item:not(:last-child)::after {
+		content: '-';
+		text-decoration: none;
+		display: inline-block;
+		padding: 0 0.5rem;
+	}
+}
