@@ -1,0 +1,22 @@
+---
+layout: 'base.njk'
+---
+
+<h1 class="title">{{ title }}</h1>
+<img src="{{ img }}" alt="{{ imgAlt }}">
+{{ content | safe}}
+
+<div class="recipe__tags__list">
+    <span class="recipe__tags__title">Oppskrifts tags: </span>
+    {% for tag in tags %}
+    <a href="/tags/{{ tag }}" class="recipe__tags__item">{{ tag }}</a>
+    {% endfor %}
+</div>
+
+<hr>
+
+<div class="share-field">
+    <a class="print" onclick="print()">PRINT</a>
+    <a class="share" onclick="navigator.share({title:'Pepperkaker', message:
+        '', url:''})">DEL</a>
+</div>

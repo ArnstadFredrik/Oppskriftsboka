@@ -1,0 +1,24 @@
+---
+tag: list
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  addAllPagesToCollections: true
+permalink: /tags/{{ tag }}/
+layout: 'base.njk'
+eleventyComputed:
+  title: "{{ tag | toUpper }}"
+---
+<h1>{{ tag }}</h1>
+
+{% set taglist = collections[ tag ] %}
+
+<div class="c2 grid">
+  {% for post in taglist | reverse %}
+    <a class="recipe" href="{{ post.url | url }}">
+      <img src="{{ post.data.img }}" alt="">
+      <p>{{post.data.title}}</p>
+    </a>
+  {% endfor %}
+</div>
