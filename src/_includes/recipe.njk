@@ -13,9 +13,9 @@ layout: 'base.njk'
     {% endfor %}
 </div>
 
-<hr>
+<hr> 
 
 <div class="share-field">
     <a class="print" onclick="print()">PRINT</a>
-    <a class="share" onclick="navigator.share({title:'Oppskrift', message: 'Oppskrifter', url: 'mat.arnstad.xyz'})">DEL</a>
+    <a class="share" onclick="navigator.share({title:'{{ title }}', message: '', url: 'https://mat.arnstad.xyz{{ page.url }}'})">DEL</a>
 </div>
