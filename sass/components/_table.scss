@@ -5,8 +5,12 @@ table {
 	border-collapse: collapse;
 	width: 100%;
 	overflow-x: auto;
-	display: block;
+	display: table;
 	font-variant-numeric: lining-nums tabular-nums;
+
+	@include abstracts.mq(abstracts.$medium) {
+		display: block;
+	}
 
 	caption {
 		margin-bottom: 0.75em;

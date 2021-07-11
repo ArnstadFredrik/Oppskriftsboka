@@ -1,4 +1,4 @@
-@use '../abstracts';
+@use '../abstracts' as *;
 
 * {
 	box-sizing: border-box;
@@ -11,7 +11,7 @@
 
 body {
 	line-height: 1.5;
-	font-family: abstracts.$ff-body;
+	font-family: $ff-body;
 	font-size: 1.2rem;
 	margin: 0 auto;
 	max-width: 40em;
@@ -20,8 +20,13 @@ body {
 	word-wrap: break-word;
 	text-rendering: optimizeLegibility;
 	font-kerning: normal;
-	color: abstracts.$text-color;
-	background-color: abstracts.$bg-color-dark;
+	color: $text-color;
+	background-color: $bg-color-dark;
+
+	@include mq($medium) {
+		font-size: 0.9rem;
+		padding: 1em;
+	}
 }
 
 p {
@@ -29,7 +34,7 @@ p {
 }
 
 a {
-	color: abstracts.$text-color;
+	color: $text-color;
 
 	&:visited {
 		color: inherit;
@@ -47,7 +52,7 @@ h4,
 h5,
 h6 {
 	margin-top: 1.4rem;
-	color: abstracts.$theme-color;
+	color: $theme-color;
 	text-transform: capitalize;
 }
 
@@ -83,12 +88,12 @@ pre code {
 }
 
 hr {
-	background-color: abstracts.$text-color;
+	background-color: $text-color;
 	border: none;
 	height: 1px;
 	margin: 1em 0;
 }
 
 ::marker {
-	color: abstracts.$theme-color;
+	color: $theme-color;
 }

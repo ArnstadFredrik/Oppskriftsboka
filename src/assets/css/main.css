@@ -46,8 +46,13 @@ table {
   border-collapse: collapse;
   width: 100%;
   overflow-x: auto;
-  display: block;
+  display: table;
   font-variant-numeric: lining-nums tabular-nums;
+}
+@media (min-width: 30em) {
+  table {
+    display: block;
+  }
 }
 table caption {
   margin-bottom: 0.75em;
@@ -91,6 +96,12 @@ body {
   font-kerning: normal;
   color: #dddddd;
   background-color: #1a1a1a;
+}
+@media (min-width: 30em) {
+  body {
+    font-size: 0.9rem;
+    padding: 1em;
+  }
 }
 
 p {
@@ -211,6 +222,58 @@ footer > * {
   padding: 0 0.5rem;
 }
 
+@media print {
+  html {
+    background-color: transparent;
+  }
+
+  body {
+    background-color: transparent;
+    font-size: 12pt;
+    color: #1a1a1a;
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  .c2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  p,
+h2,
+h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+h3,
+h4 {
+    page-break-after: avoid;
+  }
+
+  .share-field {
+    display: none;
+  }
+
+  .tags-list {
+    display: none;
+  }
+
+  tr:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  footer {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+}
 .grid {
   display: grid;
   grid-gap: 1em;

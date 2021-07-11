@@ -1,0 +1,7 @@
+@use 'breakpoint';
+
+@mixin mq($size: breakpoint.$medium) {
+	@media (min-width: $size) {
+		@content;
+	}
+}
