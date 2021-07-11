@@ -16,5 +16,9 @@
 }
 
 .share {
-	display: none;
+	display: block;
+
+	@include abstracts.mq(abstracts.$medium) {
+		display: none;
+	}
 }

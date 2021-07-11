@@ -175,7 +175,7 @@ hr {
 footer {
   display: grid;
   justify-items: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   margin-top: 10em;
 }
 footer > * {
@@ -204,7 +204,12 @@ footer > * {
 }
 
 .share {
-  display: none;
+  display: block;
+}
+@media (min-width: 30em) {
+  .share {
+    display: none;
+  }
 }
 
 .tags__title {
