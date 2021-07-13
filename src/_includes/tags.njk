@@ -1,5 +1,6 @@
 <div class="tags centering">
-<p><span class="tags__title">Tags: </span>
+<p>
+{# <span class="tags__title">Tags: </span> #}
 {% for tag in collections.tagsList%}
     <a class="tags__item" href="/tags/{{tag}}">{{tag}}</a>
 {% endfor %}

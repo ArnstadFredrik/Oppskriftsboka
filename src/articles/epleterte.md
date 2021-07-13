@@ -42,17 +42,11 @@ Hakkede nøtter	| 3ss
 
 ## Fremgangsmåte
 
-1. Bland sammen mel, melis, smør, og egg. Bland til deigen samler seg, men ikke
-for lenge. Smøret bør holdes så kald som mulig. Pakk deigen i plast og legg den
-kaldt i 15 minutter
-2. Sett ovnen på 200 C.
-3. Kjevle deigen til ca. 1cm og kle formen (24cm diameter). Deigen trekker seg
-sammen, så la den gå litt over kanten.
-4. Prikk bunnen med en gaffel. Kjøl i 15 minutter og forstek i 10-15 minutter.
-5. Skjær eplene i tynne skiver og stek de med smør sukker og kanel
-6. Visp sammen egg, Crème fraiche, sukker, vaniljesukker, sitronskall og
+1. Lag [søt paibunn](/articles/paibunn)
+2. Skjær eplene i tynne skiver og stek de med smør sukker og kanel
+3. Visp sammen egg, Crème fraiche, sukker, vaniljesukker, sitronskall og
 sitronsaft.
-7. Legg halvparten av eplene på paibunnen og hell over fyllet.
-8. Stek midt i ovnen i ca. 25 minutter, til den er gyllen og fyllet har stivnet.
-9. Topp med de siste epleskivene, dryss over nøttene og stek videre i 5-10
+4. Legg halvparten av eplene på paibunnen og hell over fyllet.
+5. Stek midt i ovnen i ca. 25 minutter, til den er gyllen og fyllet har stivnet.
+6. Topp med de siste epleskivene, dryss over nøttene og stek videre i 5-10
 minutter, til eplene er gyldne.

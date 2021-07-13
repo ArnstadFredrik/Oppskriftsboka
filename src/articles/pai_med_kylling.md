@@ -17,7 +17,7 @@ Vann 		| 2ss
 
 ### Fremgangsmåte
 
-1. Smuldre smør og mel sammen med vann. Hev i 30 minutter
+1. Smuldre smør og mel sammen med vann. Hvil i 30 minutter
 2. Kjevle eller trykk ut deigen i formen og forstek den på 200C i 15 minutter
 
 ## Fyll

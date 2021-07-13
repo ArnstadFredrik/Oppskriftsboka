@@ -40,3 +40,15 @@ $recipe-height: 4.5em;
 		padding-right: 0.2em;
 	}
 }
+
+.tags {
+	position: relative;
+	display: grid;
+	grid-template-columns: 4em auto;
+	align-items: center;
+
+	&:before {
+		content: 'Tags:';
+		color: abstracts.$theme-color;
+	}
+}

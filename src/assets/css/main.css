@@ -41,6 +41,17 @@ header ul {
   padding-right: 0.2em;
 }
 
+.tags {
+  position: relative;
+  display: grid;
+  grid-template-columns: 4em auto;
+  align-items: center;
+}
+.tags:before {
+  content: "Tags:";
+  color: salmon;
+}
+
 table {
   margin: 1em 0;
   border-collapse: collapse;
