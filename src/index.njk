@@ -4,7 +4,7 @@ title: Oppskriftsboka
 eleventyExcludeFromCollections: true
 ---
 
-<h1 class="page__title centering">Velkommen til oppskriftsboka</h1>
+<h1 class="page__title center grid">Velkommen til oppskriftsboka</h1>
 
 <img src="/assets/images/coverpage.webp" alt="Kjøkkenbord med mat og pynt">
 
@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
 </div>
 
 <div class="grid c2">
-    {% for post in collections.oppskrifter %}
+    {% for post in collections.oppskrifter | abc %}
         <a class="recipe" href="{{ post.url }}">
         <img src="{{ post.data.img }}" alt="">
         <p class="grid center">{{post.data.title}}</p>

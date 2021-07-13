@@ -10,7 +10,7 @@ layout: 'base.njk'
 eleventyComputed:
   title: "{{ tag }}"
 ---
-<h1>{{ tag }}</h1>
+<h1>{{ tag | toUpper }}</h1>
 
 {% set taglist = collections[ tag ] %}
 

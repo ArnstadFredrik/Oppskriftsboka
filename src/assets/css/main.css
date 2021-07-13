@@ -86,7 +86,6 @@ table tr:nth-child(2n) {
 body {
   line-height: 1.5;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.2rem;
   margin: 0 auto;
   max-width: 40em;
   padding: 0.5em 1em;
@@ -99,7 +98,6 @@ body {
 }
 @media (min-width: 30em) {
   body {
-    font-size: 0.9rem;
     padding: 1em;
   }
 }
