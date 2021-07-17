@@ -12,7 +12,7 @@ Hva 		| Mengde
 ---		| ---
 Glutenfritt mel | 600 g
 Tørrgjær 	| 2 ts
-Vann		| 300 g
+Vann		| 450 g
 Olje		| 50 g
 Salt		| 8 g
 Fiberhusk	| 1 ss
