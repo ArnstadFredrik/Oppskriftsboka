@@ -12,7 +12,7 @@ tags:
 | olje til steking                       | 2ss     |
 | grønn paprika                          | 1 stk   |
 | løk                                    | 2 stk   |
-| [tikka masala saus](tikka_masala_saus.html) | 1 glass |
+| [tikka masala saus](/articles/tikka_masala_saus) | 1 glass |
 | yoghurt                                | 1.5 dl  |
 | babyspinat                             | 65g     |
 

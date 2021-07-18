@@ -5,8 +5,6 @@ tags:
  - middag
 ---
 
-![](./images/tacogryte.webp)
-
 ## Ingredienser
 Mengde | Ingrediens
 ---|---

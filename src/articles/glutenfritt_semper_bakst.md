@@ -5,17 +5,16 @@ tags:
  - glutenfritt
 ---
 
-![](./images/glutenfree_semper.webp)
-
 ## [Semper Bakst](https://www.semperglutenfritt.no/inspirasjon-fakta/bake-med-jonas)
+
 Mengde | Ingredienser
----|---
-25g | gjær
-450g | lunkent vann
-1 pakke (500g)| Mix med Fiber
-40g | matolje
-1/2ts | salt
-2ts | brødkrydder
+---    | ---
+25g    | gjær
+450g   | lunkent vann
+500g   | Mix med Fiber
+40g    | matolje
+1/2ts  | salt
+2ts    | brødkrydder
 
 1. Bland gjæren ut i vannet og tilsett oljen
 2. tilsett melblandingen og saltet, rør sammen i noen minutter til en tykk røre

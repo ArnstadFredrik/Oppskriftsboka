@@ -6,9 +6,6 @@ tags:
  - jul
 ---
 
-
-![](./images/pepperkaker.webp)
-
 |Ingredienser|Mengde|
 |---|---|
 |Sirup| 150 g|

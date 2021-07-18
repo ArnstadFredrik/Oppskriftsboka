@@ -5,8 +5,6 @@ tags:
  - frokost
 ---
 
-![](./images/musli.webp)
-
 ## Ingredienser
 
 ### Før steking

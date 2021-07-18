@@ -1,4 +1,4 @@
 {
-	"layout": "recipe.njk",
-	"oppskrift": true
+  "layout": "recipe.njk",
+  "oppskrift": true
 }

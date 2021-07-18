@@ -7,9 +7,6 @@ tags:
 img: /assets/images/surdeigsbrod.webp
 ---
 
-
-![](./images/surdeigsbrod.webp)
-
 ## Ingredienser 
 
 | Inngredienser | Mengde | Prosent |

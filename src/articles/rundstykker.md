@@ -6,8 +6,6 @@ tags:
  - frokost
 ---
 
-![](./images/rundstykker.webp)
-
 ## Ingredienser
 
 Hva 			| Mengde

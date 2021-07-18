@@ -24,5 +24,5 @@ Fiberhusk	| 1 ss
 3. La det heve i 30-60 minutter
 4. Bak ut på et bakepapir, eller aluminiumsfolie
 5. La det heve i 30 minutter
-6. Topp med [pizzasaus](./tomatsaus.html), ost og annen topping
+6. Topp med [pizzasaus](/articles/tomatsaus), ost og annen topping
 7. Stek på 250 C til ferdig.

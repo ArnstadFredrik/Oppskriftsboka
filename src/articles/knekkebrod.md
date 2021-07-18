@@ -6,8 +6,6 @@ tags:
     - frokost
 ---
 
-![](./images/knekkebrod.webp)
-
 ## Ingredienser
 
 Hva 			| Mengde

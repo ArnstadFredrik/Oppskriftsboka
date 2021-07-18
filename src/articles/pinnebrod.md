@@ -1,5 +1,8 @@
 ---
 title: Pinnebrød
+tags: 
+ - baking
+ - tur
 ---
 
 |Ingredienser|Mengde|
@@ -14,4 +17,3 @@ title: Pinnebrød
 1. Bland det tørre. 
 2. Spe med vann og olje til deigen har plastelinakonsistens.
 
-tags: baking tur

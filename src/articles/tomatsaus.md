@@ -1,5 +1,7 @@
 ---
 title: Tomatsaus
+tags: 
+ - saus
 ---
 
 ## ingredienser
@@ -12,4 +14,3 @@ title: Tomatsaus
 1. skjær løk og hvitløk. stek i olje til myk
 2. tilsett hermetiske tomater
 
-tags: saus
