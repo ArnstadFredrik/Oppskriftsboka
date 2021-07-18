@@ -15,6 +15,11 @@ header ul {
   margin: 0px;
   display: grid;
 }
+@media (min-width: 30em) {
+  .recipe__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .recipe:hover p {
   background-color: salmon;
   text-decoration: underline;
@@ -78,8 +83,9 @@ table th {
   padding: 0.25em 0.5em 0.25em 0.7em;
   text-align: left;
 }
+table th,
 table td {
-  padding: 0.7em;
+  padding: 0.7rem 1.7rem;
 }
 table tr:nth-child(2n) {
   background-color: rgba(255, 255, 255, 0.1);
@@ -149,6 +155,10 @@ h6 {
   font-weight: normal;
 }
 
+.page__title {
+  text-align: center;
+}
+
 code {
   font-family: Menlo, Monaco, "Lucida Console", Consolas, monospace;
   font-size: 85%;
@@ -186,6 +196,7 @@ footer {
   justify-items: center;
   font-size: 0.9rem;
   margin-top: 10em;
+  margin-bottom: 2rem;
 }
 footer > * {
   margin: 0.5em;

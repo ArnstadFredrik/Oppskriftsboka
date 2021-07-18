@@ -3,52 +3,59 @@
 $recipe-height: 4.5em;
 
 .recipe {
-	text-align: center;
-	background-color: abstracts.$text-color;
-	position: relative;
-	min-height: $recipe-height;
-	margin: 0px;
-	display: grid;
+  text-align: center;
+  background-color: abstracts.$text-color;
+  position: relative;
+  min-height: $recipe-height;
+  margin: 0px;
+  display: grid;
 
-	&:hover p {
-		background-color: abstracts.$theme-color;
-		text-decoration: underline;
-	}
+  &__grid {
+    @include abstracts.mq(abstracts.$medium) {
+      //   display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
 
-	p {
-		color: abstracts.$bg-color-dark;
-		text-decoration: none;
-		text-transform: uppercase;
-		background-color: abstracts.$text-color;
-		z-index: 10;
-		padding: 0.5em 1em;
-		margin: 0em;
-		align-self: end;
-		height: $recipe-height;
-	}
+  &:hover p {
+    background-color: abstracts.$theme-color;
+    text-decoration: underline;
+  }
 
-	&__tags__list {
-		font-size: 0.9rem;
-	}
+  p {
+    color: abstracts.$bg-color-dark;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: abstracts.$text-color;
+    z-index: 10;
+    padding: 0.5em 1em;
+    margin: 0em;
+    align-self: end;
+    height: $recipe-height;
+  }
 
-	&__tags__item {
-		font-style: italic;
-	}
+  &__tags__list {
+    font-size: 0.9rem;
+  }
 
-	&__tags__item:not(:last-child)::after {
-		content: ',';
-		padding-right: 0.2em;
-	}
+  &__tags__item {
+    font-style: italic;
+  }
+
+  &__tags__item:not(:last-child)::after {
+    content: ',';
+    padding-right: 0.2em;
+  }
 }
 
 .tags {
-	position: relative;
-	display: grid;
-	grid-template-columns: 4em auto;
-	align-items: center;
+  position: relative;
+  display: grid;
+  grid-template-columns: 4em auto;
+  align-items: center;
 
-	&:before {
-		content: 'Tags:';
-		color: abstracts.$theme-color;
-	}
+  &:before {
+    content: 'Tags:';
+    color: abstracts.$theme-color;
+  }
 }

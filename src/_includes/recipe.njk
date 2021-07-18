@@ -4,7 +4,8 @@ layout: 'base.njk'
 
 <h1 class="title">{{ title }}</h1>
 <img src="{{ img }}" alt="{{ imgAlt }}">
-{{ content | safe}}
+
+<div class="recipe__grid">{{ content | safe}}</div>
 
 <div class="recipe__tags__list">
     <span class="recipe__tags__title">Oppskrifts tags: </span>

@@ -1,16 +1,17 @@
 footer {
-	display: grid;
-	justify-items: center;
-	font-size: 0.9rem;
-	margin-top: 10em;
+  display: grid;
+  justify-items: center;
+  font-size: 0.9rem;
+  margin-top: 10em;
+  margin-bottom: 2rem;
 
-	& > * {
-		margin: 0.5em;
-	}
+  & > * {
+    margin: 0.5em;
+  }
 }
 
 .rss {
-	border-top: 1px solid var(--background-color-light);
-	width: fit-content;
-	padding: 0.5em 3em;
+  border-top: 1px solid var(--background-color-light);
+  width: fit-content;
+  padding: 0.5em 3em;
 }
