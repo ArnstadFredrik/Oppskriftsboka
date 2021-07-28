@@ -12,6 +12,7 @@ Hva 		| Mengde
 Smør		| 100 g
 Bananer 	| 4 stk
 Sukker 		| 2 kopper
+Mel 		| 3 kopper
 Egg 		| 3 stk
 Natron		| 2 ts
 Bakepulver 	| 2 ts
