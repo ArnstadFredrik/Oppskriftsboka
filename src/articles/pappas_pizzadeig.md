@@ -7,6 +7,8 @@ tags:
 
 ## Ingredienser
 
+*Gir 8 pizza*
+
 Mengde 		| Hva
 ---		| ---
 6 dl 		| Vann (25 grader)
