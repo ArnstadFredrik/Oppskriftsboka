@@ -1,6 +1,5 @@
 ---
 title: Banankake
-img: /assets/images/banankake.webp
 tags:
  - kake
  - dessert
