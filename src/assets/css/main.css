@@ -20,6 +20,9 @@ header ul {
     grid-template-columns: 1fr 1fr;
   }
 }
+.recipe__grid li {
+  margin-bottom: 1rem;
+}
 .recipe:hover p {
   background-color: salmon;
   text-decoration: underline;
@@ -254,7 +257,7 @@ footer > * {
 
   body {
     background-color: transparent;
-    font-size: 12pt;
+    font-size: 10pt;
     color: #1a1a1a;
   }
 
@@ -287,7 +290,7 @@ h4 {
     display: none;
   }
 
-  tr:nth-child(2n) {
+  table tr:nth-child(2n) {
     background-color: rgba(0, 0, 0, 0.1);
   }
 

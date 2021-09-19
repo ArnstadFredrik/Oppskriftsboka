@@ -15,6 +15,10 @@ $recipe-height: 4.5em;
       //   display: grid;
       grid-template-columns: 1fr 1fr;
     }
+
+    li {
+      margin-bottom: 1rem;
+    }
   }
 
   &:hover p {

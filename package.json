@@ -1,19 +1,19 @@
 {
-	"name": "oppskriftsboka",
-	"version": "1.0.0",
-	"description": "",
-	"scripts": {
-		"watch:eleventy": "npx @11ty/eleventy --serve",
-		"watch:sass": "npx sass sass:src/assets/css --watch",
-		"start": "npm run watch:eleventy & npm run watch:sass",
-		"build": "eleventy"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"@11ty/eleventy": "^0.12.1",
-		"@11ty/eleventy-plugin-rss": "^1.1.1",
-		"sass": "^1.35.2"
-	}
+  "name": "oppskriftsboka",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:sass": "npx sass sass:src/assets/css --watch",
+    "dev": "npm run watch:eleventy & npm run watch:sass",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "sass": "^1.35.2"
+  }
 }
