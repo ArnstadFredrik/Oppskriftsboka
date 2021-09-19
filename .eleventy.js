@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss)
 
   eleventyConfig.addPassthroughCopy('./src/assets')
+  eleventyConfig.addPassthroughCopy('./src/sw.js')
 
   eleventyConfig.addCollection('oppskrifter', function(collection) {
     return collection.getAll().filter(function(item) {
