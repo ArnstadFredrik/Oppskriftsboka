@@ -3,6 +3,7 @@
   "short_name": "Oppskrifter",
   "start_url": "/?home=true",
   "description": "Min samling oppskrifter.",
+  "categories" : ["food"],
   "icons": [
     {
       "src": "/assets/appicons/android-chrome-192x192.png",
@@ -16,6 +17,16 @@
       "type": "image/png",
       "purpose": "maskable any"
     }
+  ],
+  "shortcuts" : [
+	  {
+		  "name" : "Frontside",
+		  "url" : "/"
+	  },
+	  {
+		  "name" : "Tags",
+		  "url" : "/tags/all"
+	  }
   ],
   "theme_color": "#1a1a1a",
   "background_color": "#1a1a1a",
