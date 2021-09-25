@@ -12,7 +12,7 @@ Hva 		| Mengde
 Smør		| 100 g
 Bananer 	| 4 stk (ca. 400 g)
 Sukker 		| 200 g
-Mel 		| 400 g
+Mel 		| 300 g
 Surdeigsstarter | 100 g
 Egg 		| 3 stk
 Natron		| 2 ts
