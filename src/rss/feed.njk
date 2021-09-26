@@ -1,12 +1,12 @@
 ---json
 {
- "permalink": "feed.atom",
+ "permalink": "feed.xml",
  "eleventyExcludeFromCollection": true,
  "metadata" : {
   "title" : "Oppskriftsboka",
   "subtitle" : "Samling med oppskrifter til både middag, dessers og snacks",
-  "url" : "https://mat.arnstad.xyz",
-  "feedUrl" : "https://mat.arnstad.xyz/feed.atom",
+  "url" : "https://mat.arnstad.xyz/",
+  "feedUrl" : "https://mat.arnstad.xyz/feed.xml",
   "author" : {
    "name" : "Fredrik Arnstad",
    "email" : "fredrik.arnstad@icloud.com"
@@ -15,11 +15,15 @@
 }
 ---
 <?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
+  <language>no-nb</language>
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
+  <atom:link href="{{ metadate.feedUrl }}" rel="self" type="application/rss+xml" />
   <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
