@@ -16,13 +16,11 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 
-<feed>
+<feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
-  <language>no-nb</language>
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <atom:link href="{{ metadate.feedUrl }}" rel="self" type="application/rss+xml" />
   <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
