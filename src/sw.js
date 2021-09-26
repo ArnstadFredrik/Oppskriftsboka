@@ -17,8 +17,7 @@ workbox.routing.registerRoute(
 
 workbox.routing.registerRoute(
   ({ url }) =>
-    url.origin === self.location.origin &&
-    url.pathname.startsWith('/tags/'),
+    url.origin === self.location.origin && url.pathname.startsWith('/tags/'),
   new workbox.strategies.NetworkFirst({
     networkTimeoutSeconds: 2,
     cacheName: 'tags',
@@ -28,7 +27,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
   ({ url }) =>
     url.origin === self.location.origin &&
-    url.pathname.startsWith('/articles/'),
+    url.pathname.startsWith('/oppskrift/'),
   new workbox.strategies.NetworkFirst({
     networkTimeoutSeconds: 2,
     cacheName: 'recipes',
