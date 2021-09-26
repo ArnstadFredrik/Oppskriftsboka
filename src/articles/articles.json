@@ -1,4 +1,5 @@
 {
   "layout": "recipe.njk",
-  "oppskrift": true
+  "oppskrift": true,
+  "permalink": "/{{ title | slug }}/"
 }
