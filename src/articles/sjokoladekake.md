@@ -1,5 +1,5 @@
 ---
-title: Sjokoladekake
+title: (Lava)Sjokoladekake
 img: /assets/images/sjokolade_lava_kake.webp
 tags: 
  - dessert
