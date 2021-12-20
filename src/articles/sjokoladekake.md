@@ -8,15 +8,15 @@ tags:
 ## Ingredienser
 
 Hva 		| Mengde
----		| ---
-Sjokolade	| 160 g
+---		    | ---
+Sjokolade	| 180 g
 Smør		| 110 g
-Egg		| 2 stk
-Eggeplomme	| 2 stk
-Sukker		| 20g
-Brunsukker	| 40g
+Egg		    | 2 stk
+Eggeplomme	| 3 stk
+Sukker		| 30g
+Brunsukker	| 50g
 Salt		| 1/2 ts
-Mel		| 3 ss
+Mel		    | 2ss (21 g)
 
 ## Fremgangsmåte
 
@@ -25,5 +25,5 @@ Mel		| 3 ss
 3. Visp egg, og eggeplommer med sukker, brunsukker og salt. Eventuelt også litt
 vaniljeessens(ekstrakt). Til det har doblet i volum.
 4. Rør sjokoladen inn i eggeblandingen, sammen med melet.
-5. Fordel røren i 4 former og stek i 13-15 minutter på 230 grader. Da blir kaken
+5. Fordel røren i 4 former og stek i 8-10 minutter på 220 grader. Da blir kaken
 stekt på utsiden, og rennende kjerne.
