@@ -16,6 +16,8 @@ Mengde   | Hva
 
 ## Fremgangsmåte
 
+*Til 6. porsjoner*
+
 1. Del vaniljestangen på langs og kok den opp sammen med fløte, melk og sukker, sett til avkjøling
 2. Rør sammenvispende eggeplommer i melkeblandingen
 3. sil blandingen og hell den i porsjonsformer
